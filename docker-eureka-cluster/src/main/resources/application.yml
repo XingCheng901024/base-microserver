@@ -1,0 +1,42 @@
+spring:
+  application:
+    name: eureka-server
+---
+spring:
+  profiles: eureka-server1     # 指定profile=eureka-server1
+server:
+  port: 8761
+eureka:
+  instance:
+    hostname: eureka-server1        # 指定当profile=eureka-server1时，主机名是eureka-server1
+  client:
+    register-with-eureka: true
+    fetch-registry: true
+    serviceUrl:
+      defaultZone: http://eureka-server2:8762/eureka/,http://eureka-server3:8763/eureka/      # 将自己注册到eureka-server2这个Eureka上面去
+---
+spring:
+  profiles: eureka-server2
+server:
+  port: 8762
+eureka:
+  instance:
+    hostname: eureka-server2
+  client:
+    register-with-eureka: true
+    fetch-registry: true
+    serviceUrl:
+      defaultZone: http://eureka-server1:8761/eureka/,http://eureka-server3:8763/eureka/
+---
+spring:
+  profiles: eureka-server3
+server:
+  port: 8763
+eureka:
+  instance:
+    hostname: eureka-server3
+  client:
+    register-with-eureka: true
+    fetch-registry: true
+    serviceUrl:
+      defaultZone: http://eureka-server1:8761/eureka/,http://eureka-server2:8762/eureka/

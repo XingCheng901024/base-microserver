@@ -1,0 +1,41 @@
+version: '2'
+services:
+  eureka-server1:
+    image: docker-eureka-cluster
+    container_name: eureka-server1
+    hostname: eureka-server1
+    networks:
+      - eureka-net
+    ports:
+      - 8761:8761
+    command: java -jar /app/docker-eureka-cluster.jar --spring.profiles.active=eureka-server1
+
+#    extra_hosts:
+#     - "somehost:162.242.195.82"
+#     - "otherhost:50.31.209.229"
+
+  eureka-server2: 
+      image: docker-eureka-cluster
+      container_name: eureka-server2
+      hostname: eureka-server2
+      networks:
+        - eureka-net
+      ports:
+        - 8762:8762
+      command: java -jar /app/docker-eureka-cluster.jar --spring.profiles.active=eureka-server2
+
+
+  eureka-server3:
+      image: docker-eureka-cluster
+      container_name: eureka-server3
+      hostname: eureka-server3
+      networks:
+        - eureka-net
+      ports:
+        - 8763:8763
+      command: java -jar /app/docker-eureka-cluster.jar --spring.profiles.active=eureka-server3
+
+
+networks:
+  eureka-net:
+    driver: bridge

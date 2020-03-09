@@ -4,5 +4,7 @@
     <file url="file://$PROJECT_DIR$" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/base-eureka" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/base-eureka2" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/docker-eureka-cluster" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/docker-eureka-cluster/src/main/resources/application.yml" charset="UTF-8" />
   </component>
 </project>

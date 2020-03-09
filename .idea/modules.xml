@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/base-eureka/base-eureka.iml" filepath="$PROJECT_DIR$/base-eureka/base-eureka.iml" />
       <module fileurl="file://$PROJECT_DIR$/base-eureka2/base-eureka2.iml" filepath="$PROJECT_DIR$/base-eureka2/base-eureka2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/docker-eureka-cluster/docker-eureka-cluster.iml" filepath="$PROJECT_DIR$/docker-eureka-cluster/docker-eureka-cluster.iml" />
     </modules>
   </component>
 </project>

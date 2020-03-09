@@ -8,12 +8,14 @@
         <outputRelativeToContentRoot value="true" />
         <module name="base-eureka" />
         <module name="base-eureka2" />
+        <module name="docker-eureka-cluster" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="base-eureka" target="1.8" />
       <module name="base-eureka2" target="1.8" />
       <module name="base-microserver" target="1.8" />
+      <module name="docker-eureka-cluster" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>
