@@ -1,0 +1,15 @@
+spring:
+  application:
+    name: turbine
+  cloud:
+    config:
+      uti: http://192.168.199.190:8888
+server:
+  port: 8001
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://192.168.199.190:8761/eureka/,http://192.168.199.190:8762/eureka/
+version: 20200312
+demo:
+  message: 2134

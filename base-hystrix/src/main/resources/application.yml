@@ -1,0 +1,20 @@
+# 应用实例
+spring:
+  application:
+    name: hystrix-dashboard
+
+server:
+  port: 8000
+
+endpoints:
+  restart:
+    enabled: true
+  shutdown:
+    enabled: true
+
+# actuator开放所有端点，Spring Boot 2.x与1.x不同，具体请查询
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"

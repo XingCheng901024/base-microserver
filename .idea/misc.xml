@@ -7,6 +7,12 @@
         <option value="$PROJECT_DIR$/base-eureka2/pom.xml" />
         <option value="$PROJECT_DIR$/docker-eureka-cluster/pom.xml" />
         <option value="$PROJECT_DIR$/base-eureka/pom.xml" />
+        <option value="$PROJECT_DIR$/base-consumer1/pom.xml" />
+        <option value="$PROJECT_DIR$/base-hystrix/pom.xml" />
+        <option value="$PROJECT_DIR$/base-ribbon/pom.xml" />
+        <option value="$PROJECT_DIR$/base-provider1/pom.xml" />
+        <option value="$PROJECT_DIR$/base-provider2/pom.xml" />
+        <option value="$PROJECT_DIR$/base-feign/pom.xml" />
       </list>
     </option>
   </component>

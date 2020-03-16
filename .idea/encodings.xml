@@ -2,8 +2,17 @@
 <project version="4">
   <component name="Encoding">
     <file url="file://$PROJECT_DIR$" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/base-config" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/base-consumer1" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/base-eureka" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/base-eureka2" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/base-feign" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/base-feign/src/main/resources/application.yml" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/base-hystrix" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/base-hystrix/src/main/resources/application.yml" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/base-provider1" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/base-provider2" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/base-ribbon" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/docker-eureka-cluster" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/docker-eureka-cluster/src/main/resources/application.yml" charset="UTF-8" />
   </component>

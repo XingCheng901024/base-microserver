@@ -6,15 +6,30 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="base-config" />
+        <module name="base-consumer1" />
         <module name="base-eureka" />
         <module name="base-eureka2" />
+        <module name="base-feign" />
+        <module name="base-hystrix" />
+        <module name="base-provider1" />
+        <module name="base-provider2" />
+        <module name="base-ribbon" />
         <module name="docker-eureka-cluster" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="base-config" target="1.8" />
+      <module name="base-consumer" target="1.8" />
+      <module name="base-consumer1" target="1.8" />
       <module name="base-eureka" target="1.8" />
       <module name="base-eureka2" target="1.8" />
+      <module name="base-feign" target="1.8" />
+      <module name="base-hystrix" target="1.8" />
       <module name="base-microserver" target="1.8" />
+      <module name="base-provider1" target="1.8" />
+      <module name="base-provider2" target="1.8" />
+      <module name="base-ribbon" target="1.8" />
       <module name="docker-eureka-cluster" target="1.8" />
     </bytecodeTargetLevel>
   </component>

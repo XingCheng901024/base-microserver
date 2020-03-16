@@ -1,0 +1,22 @@
+spring:
+  application:
+    name: config-server
+  cloud:
+    config:
+      server:
+        git:
+#          uri: https://github.com/forezp/SpringcloudConfig/
+          uri: https://github.com/XingCheng901024/test-config.git
+#          配置Git仓库位置
+#          search-paths:
+#          对应 {label} 部分，即 Git 的分支
+          label: master
+#          spring_cloud_in_action/config-repo 配置仓库路径下的相对搜索位置，可以配置多个
+          username: XingCheng901024
+#          访问Git仓库的用户名
+          password: mdybzft332@xing
+#          访问Git仓库的用户名密码
+      label: master
+date: 20200313
+time:
+  hour: 0012
