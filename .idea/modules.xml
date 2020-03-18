@@ -2,16 +2,18 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/base-provider2/.mvn1/.mvn.iml" filepath="$PROJECT_DIR$/base-provider2/.mvn1/.mvn.iml" />
       <module fileurl="file://$PROJECT_DIR$/base-config/base-config.iml" filepath="$PROJECT_DIR$/base-config/base-config.iml" />
       <module fileurl="file://$PROJECT_DIR$/base-consumer1/base-consumer1.iml" filepath="$PROJECT_DIR$/base-consumer1/base-consumer1.iml" />
       <module fileurl="file://$PROJECT_DIR$/base-eureka/base-eureka.iml" filepath="$PROJECT_DIR$/base-eureka/base-eureka.iml" />
       <module fileurl="file://$PROJECT_DIR$/base-eureka2/base-eureka2.iml" filepath="$PROJECT_DIR$/base-eureka2/base-eureka2.iml" />
       <module fileurl="file://$PROJECT_DIR$/base-feign/base-feign.iml" filepath="$PROJECT_DIR$/base-feign/base-feign.iml" />
       <module fileurl="file://$PROJECT_DIR$/base-hystrix/base-hystrix.iml" filepath="$PROJECT_DIR$/base-hystrix/base-hystrix.iml" />
+      <module fileurl="file://$PROJECT_DIR$/base-hystrix-in-feign/base-hystrix-in-feign.iml" filepath="$PROJECT_DIR$/base-hystrix-in-feign/base-hystrix-in-feign.iml" />
+      <module fileurl="file://$PROJECT_DIR$/base-hystrix-in-ribbon/base-hystrix-in-ribbon.iml" filepath="$PROJECT_DIR$/base-hystrix-in-ribbon/base-hystrix-in-ribbon.iml" />
       <module fileurl="file://$PROJECT_DIR$/base-provider1/base-provider1.iml" filepath="$PROJECT_DIR$/base-provider1/base-provider1.iml" />
       <module fileurl="file://$PROJECT_DIR$/base-provider2/base-provider2.iml" filepath="$PROJECT_DIR$/base-provider2/base-provider2.iml" />
       <module fileurl="file://$PROJECT_DIR$/base-ribbon/base-ribbon.iml" filepath="$PROJECT_DIR$/base-ribbon/base-ribbon.iml" />
+      <module fileurl="file://$PROJECT_DIR$/base-zuul/base-zuul.iml" filepath="$PROJECT_DIR$/base-zuul/base-zuul.iml" />
       <module fileurl="file://$PROJECT_DIR$/docker-eureka-cluster/docker-eureka-cluster.iml" filepath="$PROJECT_DIR$/docker-eureka-cluster/docker-eureka-cluster.iml" />
     </modules>
   </component>

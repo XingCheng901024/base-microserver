@@ -9,10 +9,14 @@
     <file url="file://$PROJECT_DIR$/base-feign" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/base-feign/src/main/resources/application.yml" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/base-hystrix" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/base-hystrix-in-feign" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/base-hystrix-in-feign/src/main/resources/application.yml" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/base-hystrix-in-ribbon" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/base-hystrix/src/main/resources/application.yml" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/base-provider1" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/base-provider2" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/base-ribbon" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/base-zuul" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/docker-eureka-cluster" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/docker-eureka-cluster/src/main/resources/application.yml" charset="UTF-8" />
   </component>

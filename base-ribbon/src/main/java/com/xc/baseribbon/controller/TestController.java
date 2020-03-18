@@ -15,7 +15,7 @@ public class TestController {
     @GetMapping("/restful/{id}")
     public String getRestfulById(@PathVariable Long id){
         String tmp = id.toString();
-        return this.restTemplate.getForObject("http://base-ribbon:7901/book/"+tmp,String.class);
+        return this.restTemplate.getForObject("http://base-ribbon/book/"+tmp,String.class);
     }
 
     @GetMapping("/provider/{id}")

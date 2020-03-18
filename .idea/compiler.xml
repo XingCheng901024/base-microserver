@@ -12,9 +12,12 @@
         <module name="base-eureka2" />
         <module name="base-feign" />
         <module name="base-hystrix" />
+        <module name="base-hystrix-in-feign" />
+        <module name="base-hystrix-in-ribbon" />
         <module name="base-provider1" />
         <module name="base-provider2" />
         <module name="base-ribbon" />
+        <module name="base-zuul" />
         <module name="docker-eureka-cluster" />
       </profile>
     </annotationProcessing>
@@ -26,10 +29,13 @@
       <module name="base-eureka2" target="1.8" />
       <module name="base-feign" target="1.8" />
       <module name="base-hystrix" target="1.8" />
+      <module name="base-hystrix-in-feign" target="1.8" />
+      <module name="base-hystrix-in-ribbon" target="1.8" />
       <module name="base-microserver" target="1.8" />
       <module name="base-provider1" target="1.8" />
       <module name="base-provider2" target="1.8" />
       <module name="base-ribbon" target="1.8" />
+      <module name="base-zuul" target="1.8" />
       <module name="docker-eureka-cluster" target="1.8" />
     </bytecodeTargetLevel>
   </component>

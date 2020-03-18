@@ -1,20 +1,16 @@
-# 应用实例
 spring:
   application:
-    name: hystrix-dashboard
-
+    name: base-hystrix-dashboard
 server:
-  port: 8000
-
-endpoints:
-  restart:
-    enabled: true
-  shutdown:
-    enabled: true
-
-# actuator开放所有端点，Spring Boot 2.x与1.x不同，具体请查询
+  port: 9001
+eureka:
+  client:
+    register-with-eureka: true     #false表示不向注册中心注册自己。
+    fetch-registry: true     #false表示自己端就是注册中心，我的职责就是维护服务实例，并不需要去检索服务
+    service-url:
+      defaultZone: http://192.168.199.190:8761/eureka/,http://192.168.199.190:8762/eureka/
 management:
   endpoints:
     web:
       exposure:
-        include: "*"
+        include: '*'
